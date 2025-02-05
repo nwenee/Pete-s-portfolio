@@ -65,15 +65,21 @@ nav a {
 }
 
 /* About Section */
+
+#about {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .about-intro {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 40px;
 }
 
 .profile-image {
-  flex: 0 0 auto;
+  flex: 0 0 300px;
 }
 
 .intro-text {
@@ -82,12 +88,26 @@ nav a {
 }
 
 .intro-text h3 {
+  text-align: left;
+  color: rgb(0, 48, 73);
   margin-top: 0;
+}
+
+.intro-text ul {
+  padding-left: 20px;
 }
 
 .background {
   clear: both;
+  text-align: left;
 }
+
+.background h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
 
 
 /* Portfolio Section */
